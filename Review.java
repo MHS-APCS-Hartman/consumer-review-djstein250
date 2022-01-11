@@ -5,32 +5,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.io.*;
 
-/*
-1a: public static double sentimentVal(String word)
-1b: Yes. A String variable. Won't compile if you input a different type.
-1c: Yes. Double
-
-2: SentimentVal("awesome"); --> 0.92
-
-3a: Yes. Right return and variable type
-3b: No. Wrong return and variable type
-3c: No. Only one parameter
-
-4: The totalSentiment() method works by using a for loop to iterate file.length() times.
-   It adds each character to a seperate string until we get to a space which means it's the end of a word
-   It then removes the punctuation and finds the sentiment value of the word and adds it to a running total.
-   It then returns the total
-
-5a: The rating make sense because it doesn't give a 4 star unless it's really high and doesn't give 1 star unless it's really low
-5b: One way to adjust totalSentiment would be to make a maximum and minimum total so that the numbers cant exceed or go below
-    a certain amount. Another way to adjust would be to cast the total to an int to make all the totals more standardized and
-    easier to give a star rating
-
-6a: The logical error he made was starting his if - else if statements with the boolean expression "totalSentiment < 15"
-    and going down. This is bad because if totalSentiment is 0, it will still return four.
-6b: The easiest way to fix it would be to reverse the order of his boolean expressions to start at <0 and go up to <15
- */
-
 
 
 /**
